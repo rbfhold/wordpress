@@ -5,15 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Robert Fruchtman Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; }
     header, section, footer { padding: 20px; max-width: 800px; margin: auto; }
-    header { background: #333; color: #fff; text-align: center; }
+    header { background: #004080; color: #fff; text-align: center; }
     nav a { margin: 0 10px; color: #fff; text-decoration: none; }
     h1, h2 { margin-top: 0; }
     .services ul { list-style: none; padding: 0; }
-    .services li { background: #f4f4f4; margin: 5px 0; padding: 10px; }
-    .portfolio-item { margin-bottom: 20px; }
-    footer { background: #333; color: #fff; text-align: center; }
+    .services li { background: #e6f0ff; margin: 5px 0; padding: 10px; border-radius: 5px; }
+    .portfolio-item { margin-bottom: 20px; background: #fff; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+    footer { background: #004080; color: #fff; text-align: center; }
+    .contact-link { color: #004080; text-decoration: none; }
+    .profile-pic { display: block; margin: 20px auto; width: 120px; height: 120px; border-radius: 50%; background: #ccc; line-height: 120px; text-align: center; font-size: 14px; color: #666; }
   </style>
 </head>
 <body>
@@ -30,6 +32,7 @@
 
   <section id="about">
     <h2>About Me</h2>
+    <div class="profile-pic">Photo</div>
     <p>I am a versatile freelancer specializing in fast WordPress edits, virtual assistance, and AI-powered solutions. I bring decades of IT expertise with a focus on delivering practical, results-driven outcomes for clients worldwide.</p>
   </section>
 
@@ -57,8 +60,8 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: yourname@example.com</p>
-    <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
+    <p>Email: <a class="contact-link" href="mailto:rbfhold@gmail.com">rbfhold@gmail.com</a></p>
+    <p>LinkedIn: <a class="contact-link" href="https://www.linkedin.com/feed/">LinkedIn Profile</a></p>
   </section>
 
   <footer>
@@ -68,11 +71,11 @@
 </html>
 
 <!-- 
-✅ Next Steps:
-1. Replace placeholder email and LinkedIn links.
-2. Add screenshots or real portfolio pieces.
-3. Deploy to GitHub Pages or Vercel with my guidance.
-4. Expand services and AI projects as we build them.
--->
+✅ Improvements applied:
+- Added blue accent color for professionalism
+- Rounded service boxes and portfolio cards for modern look
+- Placeholder profile photo block
+- Styled contact links
 
-<!-- Let me know when ready to proceed with customization and deployment guidance today. -->
+💡 Next: Replace “Photo” div with your real photo when ready.
+-->
